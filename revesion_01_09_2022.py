@@ -48,29 +48,29 @@
 
 # Example
 # variable names:
-# myvar = "Bala"
-# my_var = "Bala"
-# _my_var = "Bala"
-# myVar = "Bala"
-# MYVAR = "Bala"
+myvar = "Bala"
+my_var = "Bala"
+_my_var = "Bala"
+myVar = "Bala"
+MYVAR = "Bala"
 
 # --------------------------Types of variables:-------------------------
 # Global Variables:
 # Variables that are created outside of a function are known as global variables.
 # Global variables can be used by everyone, both inside of functions and outside.
 # Ex:
-# x = "awesome"
-# def myfunc():
-#     print("Python is " + x)
-# myfunc()
+x = "awesome"
+def myfunc():
+    print("Python is " + x)
+myfunc()
 #
 # Local Variables:
 # Variables that are created inside of a function are known as Local variables.
 # Ex:
-# def myname():
-#     x="Bala"
-#     print(x+"krishna")
-# myname()
+def myname():
+    x="Bala"
+    print(x+"krishna")
+myname()
 
 # 3. -----------------------------IDE shortcuts----------------------------------
 # *.TAB-To get the dropdowm.
@@ -92,7 +92,7 @@
 # Operators are used to perform operations on variables and values.
 # In the example below, we use the + operator to add together two values:
 # Example:
-# print(10 + 5)
+print(10 + 5)
 
 # ------------------------------Types of  operators in python---------------------------:
 # * Arithmetic operators
@@ -109,19 +109,23 @@
 # Take the variable valve x=5 y=3
 # Operator Name Example
 #  *.Addition :It is used to add the two valves.
-#  ex:print( x+y)
+#  ex:
+print( x+y)
 #  *.Subtraction:It is used to sub the two valves.
-#  ex:print( x+y)
+#  ex:
+print( x-y)
 #  *.Multiplication :It is used to multiply the two valves.
-#  ex:print( x+y)
+#  ex:
+print( x*y)
 #  *.Division :It is used to divide the two valves.
-#  ex:print( x+y)
+#  ex:
+print( x/y)
 #  *.Modulus :It is used to get the reminder  of the two valves.
-#  ex:print( x+y)
+#  ex:print( x%y)
 #  *.Exponentiation :It will used to find the power of the valves.
-#  ex:print( x+y)
+#  ex:print( x**y)
 #  *.Floor division :It will give the int valves as out put.
-#  ex:print( x+y)
+#  ex:print( x//y)
 
 #------------------------------Python Assignment Operator
 #Assignment operators are used to assign values to variables.
@@ -157,46 +161,46 @@
 #
 # and	:Returns True if both statements are true
 # Ex:
-# a = 10
-# b = 10
-# c = -10
+a = 10
+b = 10
+c = -10
 #
-# if a > 0 and b > 0:
-#     print("The numbers are greater than 0")
-#
-# if a > 0 and b > 0 and c > 0:
-#     print("The numbers are greater than 0")
-# else:
-#     print("Atleast one number is not greater than 0")
-# or	: Returns True if one of the statements is true
-# Ex:
-# a = 10
-# b = -10
-# c = 0
-#
-# if a > 0 or b > 0:
-#     print("Either of the number is greater than 0")
-# else:
-#     print("No number is greater than 0")
-#
-# if b > 0 or c > 0:
-#     print("Either of the number is greater than 0")
-# else:
-#     print("No number is greater than 0")
-# not:Reverse the result, returns False if the result is true
-# Ex:
-# # Python program to demonstrate
-# # logical not operator
-#
-# a = 10
-#
-# if not a:
-# 	print("Boolean value of a is True")
-#
-# if not (a%3 == 0 or a%5 == 0):
-# 	print("10 is not divisible by either 3 or 5")
-# else:
-# 	print("10 is divisible by either 3 or 5")
+if a > 0 and b > 0:
+    print("The numbers are greater than 0")
+
+if a > 0 and b > 0 and c > 0:
+    print("The numbers are greater than 0")
+else:
+    print("Atleast one number is not greater than 0")
+or	: Returns True if one of the statements is true
+Ex:
+a = 10
+b = -10
+c = 0
+
+if a > 0 or b > 0:
+    print("Either of the number is greater than 0")
+else:
+    print("No number is greater than 0")
+
+if b > 0 or c > 0:
+    print("Either of the number is greater than 0")
+else:
+    print("No number is greater than 0")
+not:Reverse the result, returns False if the result is true
+Ex:
+# Python program to demonstrate
+# logical not operator
+
+a = 10
+
+if not a:
+	print("Boolean value of a is True")
+
+if not (a%3 == 0 or a%5 == 0):
+	print("10 is not divisible by either 3 or 5")
+else:
+	print("10 is divisible by either 3 or 5")
 
 #-----------------------------------------Identity operators
 # It will check the adress location of the variables.
@@ -204,11 +208,11 @@
 # of the operator point to the same object and false otherwise.
 # Ex:
 #
-# x = 5
-# y = 5
-# print(x is y)
-# id(x)
-# id(y)
+x = 5
+y = 5
+print(x is y)
+id(x)
+id(y)
 
 
 #----------------------------------------Membership operators
@@ -216,13 +220,13 @@
 # The ‘in’ operator is used to check if a character/ substring/ element exists in a sequence or not.
 # Evaluate to True if it finds the specified element in a sequence otherwise False.
 # Ex:
-# list1 = [1, 2, 3, 4, 5]
-# list2 = [6, 7, 8, 9]
-# for item in list1:
-# 	if item in list2:
-# 		print("overlapping")
-# 	else:
-# 		print("not overlapping")
+list1 = [1, 2, 3, 4, 5]
+list2 = [6, 7, 8, 9]
+for item in list1:
+	if item in list2:
+		print("overlapping")
+	else:
+		print("not overlapping")
 
 
 # 5.---------------------------------------Datatypes Introduction:
@@ -235,54 +239,54 @@
 # Int, or integer is a whole number, positive or negative, without decimals
 # of unlimited length.
 # Ex:
-# x = 1
-# y = 35656222554887711
-# z = -3255522
-#
-# print(type(x))
-# print(type(y))
-# print(type(z))
+x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
 #
 # float:
 # Float, or "floating point number" is a
 # number, positive or negative, containing one or more decimals.
 # Ex:
-# x = 1.10
-# y = 1.0
-# z = -35.59
-#
-# print(type(x))
-# print(type(y))
-# print(type(z))
-#
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+
 # Complex:
 # Complex numbers are written with a "j" as the imaginary part:
 # Ex:
-# x = 3+5j
-# y = 5j
-# z = -5j
-#
-# print(type(x))
-# print(type(y))
-# print(type(z))
+x = 3+5j
+y = 5j
+z = -5j
+
+print(type(x))
+print(type(y))
+print(type(z))
 
 #------------------------------------------------Text type
 # "String":
 # Strings in python are surrounded by either single quotation marks,
 # or double quotation marks.
 # Ex:
-# print("Bala")
+print("Bala")
 
 #----------------------------------------------BOOLEN----------
 # BOOL:In programming you often need to know if an expression is True or False.
 # You can evaluate any expression in Python, and get one of two answers, True or False.
 # EX:
-# a = 200
-# b = 33
-# if b > a:
-#   print("b is greater than a")
-# else:
-#   print("b is not greater than a")
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
 
 # 6.--------------------------------------KEYWORDS--------------------------------
 #  Keywor          Description
